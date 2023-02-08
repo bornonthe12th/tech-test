@@ -4,11 +4,11 @@ install:
 
 ## Run phpunit tests
 test-phpunit:
-	 ./vendor/bin/sail test --configuration phpunit.xml
+	./vendor/bin/sail test --configuration phpunit.xml
 
 ## Web Scrape
 web-scrape:
-	 ./vendor/bin/sail php artisan command:web-scraper
+	./vendor/bin/sail php artisan command:web-scraper
 
 ## Start Sail
 sail-start:
