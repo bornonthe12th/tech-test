@@ -2,17 +2,11 @@
 
 namespace Tests\Unit;
 
-use App\WebScraper\Implementations\JsonFormatter;
 use App\WebScraper\Implementations\SortByPrice;
-use App\WebScraper\Interfaces\ResultFormatter;
-use App\WebScraper\Interfaces\SortStrategy;
-use App\WebScraper\Interfaces\WebScraper;
-use App\WebScraper\Services\WebScraperService;
 use PHPUnit\Framework\TestCase;
 
 class SortByPriceTest extends TestCase
 {
-
     public function testSortingImplementation()
     {
         $results = [

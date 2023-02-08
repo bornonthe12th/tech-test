@@ -12,11 +12,6 @@ use PHPUnit\Framework\TestCase;
 
 class WebScraperServiceTest extends TestCase
 {
-
-    protected function setUp(): void
-    {
-    }
-
     public function testScrape()
     {
         $results = [
