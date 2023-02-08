@@ -15,7 +15,6 @@ class WLDnsSystem implements WebScraper
             $crawler = $client->request('GET', 'https://wltest.dns-systems.net/');
         } catch (GuzzleException $e) {
             //Write message to a logger
-            //var_dump($e->getMessage());
         }
 
         return $crawler->filter('.package-features')->each(function ($node) {
