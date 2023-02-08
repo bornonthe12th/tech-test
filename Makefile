@@ -10,6 +10,10 @@ test-phpunit:
 web-scrape:
 	 ./vendor/bin/sail php artisan command:web-scraper
 
+## Start Sail
+sail-start:
+	./vendor/bin/sail up -d
+
 
 
 

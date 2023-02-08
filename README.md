@@ -21,12 +21,20 @@ with the most expensive package first.
 * Docker https://docs.docker.com/engine/installation/
 * Docker compose https://docs.docker.com/compose/install/
 
+Please install dependencies then start containers before you scrape or run tests 
+
 
 ##### Install Dependencies
 
 ```$xslt
     make install
 ```
+
+##### Start Containers
+```$xslt
+    make sail-start
+```
+
 ##### Web Scrape
 
 ```$xslt
